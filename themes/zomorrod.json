@@ -6,19 +6,18 @@
       "name": "Zomorrod Dark",
       "appearance": "dark",
       "style": {
-        "accents": ["#ffee00", "#4ec1fb", "#fe77ef"],
         "border": "#025940",
         "border.disabled": "#0c1c25",
         "border.focused": "#00FFE577",
         "border.selected": "#00FFE5bb",
         "border.transparent": "#00000000",
         "border.variant": "#00FFE525",
-        "background": "#00192b",
+        "background": "#000",
         "elevated_surface.background": "#00111b",
         "surface.background": "#242631",
         "element.active": "#796595",
         "element.background": "#001A1A",
-        "element.disabled": "#e9dbfd",
+        "element.disabled": "#00c0d535",
         "element.hover": "#00c0d535",
         "element.selected": "#00111b",
         "drop_target.background": "#00111b",
@@ -38,24 +37,19 @@
         "icon.placeholder": null,
         "icon": null,
         "status_bar.background": "#00111b",
-        "tab.active_background": "#001f31",
+        "tab.active_background": "#00111b",
         "tab_bar.background": "#00111b",
         "tab.inactive_background": "#00111b",
         "title_bar.background": "#00111b",
         "title_bar.inactive_background": "#00111b",
         "toolbar.background": "#00111b",
-        "version_control.added": "#40c258",
-        "version_control.modified": "#ffb74a",
-        "version_control.word_added": "#009e1c50",
-        "version_control.word_deleted": "#ff643950",
-        "version_control.deleted": "#ff6439",
         "panel.background": "#00111b",
         "panel.focused_border": null,
         "pane.focused_border": null,
-        "search.match_background": "#ab5d1a77",
-        "scrollbar.thumb.background": "#9a9a9a77",
-        "scrollbar.thumb.border": "#00000000",
-        "scrollbar.thumb.hover_background": "#00c0d535",
+        "search.match_background": "#ab5d1a",
+        "scrollbar.thumb.background": "#00c0d535",
+        "scrollbar.thumb.border": "#000000",
+        "scrollbar.thumb.hover_background": "#00FFE577",
         "scrollbar.track.background": "#0a1821",
         "scrollbar.track.border": "#025940",
         "editor.active_line.background": "#00c58e33",
@@ -70,7 +64,7 @@
         "editor.line_number": "#FFE5B4",
         "editor.subheader.background": "#0a1821",
         "editor.wrap_guide": "#FFE5B4",
-        "editor.active_wrap_guide": "#00FFB765",
+        "editor.active_wrap_guide": "#D1D1D165",
         "terminal.background": "#0C1C25",
         "terminal.bright_foreground": "#00FFE5",
         "terminal.dim_foreground": "#001A1A",
@@ -83,6 +77,7 @@
         "terminal.ansi.magenta": "#d400ff",
         "terminal.ansi.cyan": "#88ffe3",
         "terminal.ansi.white": "#FFFFFF",
+
         "terminal.ansi.bright_black": "#d9d9d9",
         "terminal.ansi.bright_red": "#ff0000",
         "terminal.ansi.bright_green": "#00c72f",
@@ -92,16 +87,16 @@
         "terminal.ansi.bright_cyan": "#00FFF0",
         "terminal.ansi.bright_white": "#ffe4aa",
         "conflict": "#dec184",
-        "conflict.background": "#dec18433",
+        "conflict.background": "#ff0000",
         "conflict.border": "#5d4c2FFf",
         "link_text.hover": "#00c0d535",
         "created": "#73fb95",
-        "created.background": "#222e1d",
-        "created.border": "#38482FFf",
+        "created.background": null,
+        "created.border": null,
         "deleted": "#FFD700",
-        "deleted.background": "#301b1b",
-        "deleted.border": "#4c2b2c",
-        "modified": "#a2edfd",
+        "deleted.background": null,
+        "deleted.border": null,
+        "modified": "#66E4FF",
         "modified.background": null,
         "modified.border": null,
         "renamed": null,
@@ -136,9 +131,9 @@
         "unreachable.border": null,
         "players": [
           {
-            "cursor": "#00FFB7",
-            "background": "#00FFB7",
-            "selection": "#00FFB733"
+            "cursor": "#D1D1D1",
+            "background": "#D1D1D1",
+            "selection": "#D1D1D133"
           },
           {
             "cursor": "#1AFFA3",
@@ -179,7 +174,7 @@
             "font_weight": null
           },
           "boolean": {
-            "color": "#5197d1",
+            "color": "#56c2d6",
             "background_color": null,
             "font_style": null,
             "font_weight": null
@@ -215,13 +210,13 @@
             "font_weight": null
           },
           "emphasis.strong": {
-            "color": "#f3ff3f",
+            "color": "#56c2d6",
             "background_color": null,
             "font_style": null,
             "font_weight": 700
           },
           "function": {
-            "color": "#ffc578",
+            "color": "#DCDCAA",
             "background_color": null,
             "font_style": null,
             "font_weight": null
@@ -233,7 +228,7 @@
             "font_weight": null
           },
           "number": {
-            "color": "#ecea52",
+            "color": "#dae873",
             "background_color": null,
             "font_style": null,
             "font_weight": null
